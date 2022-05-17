@@ -15,6 +15,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Scanner;
 
+
 public class Lottery {
 
     static final BufferedReader READER = new BufferedReader(new InputStreamReader(System.in));
