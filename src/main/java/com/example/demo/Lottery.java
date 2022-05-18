@@ -8,7 +8,7 @@ package com.example.demo;
 // Пример вывода в консоль (совпали 1й, 4й и 6й элементы):
 // [0, 1, 4, 5, 5, 8, 9]
 // [1, 1, 2, 3, 5, 6, 9]
-// Количество совпадений: 3+
+// Количество совпадений: 3
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -51,7 +51,7 @@ public class Lottery {
         //printing out the list of found elements (x,x,x)
         System.out.println("Those elements are in a match: " + Arrays.toString(display.toArray()));
         //printing out match quantity
-        System.out.println("In match: " + counter + "+");
+        System.out.println("In match: " + counter);
     }
     //method for filling the array with random digits from 0-9
     public static void fill(int[] LotteryArray) {
